@@ -1,9 +1,10 @@
+import HomePage from "./containers/page/homePage/HomePage";
+import MenuPage from "./components/menu/MenuPage";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>oke</h1>
-      </header>
+    <div className="App flex">
+      <MenuPage />
+      <HomePage />
     </div>
   );
 }
